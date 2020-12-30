@@ -16,3 +16,10 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/UCkoQo06VnuHf4A5DDPDICbg
   googleplus: # anything in your profile username that comes after plus.google.com/
+  
+defaults:
+  - scope:
+      path: "assets/imgs"
+    values:
+      image: true
+  
