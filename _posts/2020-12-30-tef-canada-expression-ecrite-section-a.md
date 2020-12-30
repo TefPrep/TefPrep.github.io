@@ -14,8 +14,6 @@ excerpt_separator: <!--end_excerpt-->
     
     
    [![youtubethumnails]({{ myimage.path }})](https://www.youtube.com/watch?v={{ words[0] }}) 
-   
-   
   {% endif %}
 {% endfor %}
 
