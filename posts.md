@@ -1,6 +1,3 @@
----
-title: TEF PREP BLOGS
----
 
 <ul>
   {% for post in site.posts %}
