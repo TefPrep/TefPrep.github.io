@@ -2,3 +2,17 @@ theme: jekyll-theme-cayman
 paginate: 5
 title: TEF PREP
 description: Preparation for TEF Canada
+footer-links:
+  dribbble:
+  email:
+  facebook:
+  flickr:
+  github: 
+  instagram:
+  linkedin: 
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: 
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/UCkoQo06VnuHf4A5DDPDICbg
+  googleplus: # anything in your profile username that comes after plus.google.com/
