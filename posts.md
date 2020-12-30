@@ -1,8 +1,4 @@
----
-layout : default
-title: My Blogs
----
-
+## Welcome to GitHub Pages
 
 <ul>
   {% for post in site.posts %}
