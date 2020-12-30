@@ -11,9 +11,8 @@ excerpt_separator: <!--end_excerpt-->
   {% if myimage.extname contains 'png' %}
     {% assign words = myimage.basename | split:'_' %} 
      {{ words[1] }} 
-
-
      [![youtubethumnails]({{ myimage.path }})](https://www.youtube.com/watch?v={{ words[0] }}) 
+   
    
    
   {% endif %}
