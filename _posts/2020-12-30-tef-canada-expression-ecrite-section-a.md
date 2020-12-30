@@ -1,8 +1,8 @@
 ---
-layout: post
-title: TEF Canada Expression Ecrite Section A
+title: TEF Canada
 ---
 
-<iframe width="420" height="315"
-src="https://youtu.be/K7AWOWDEkec">
-</iframe>
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  [{{ myimage.path }}](https://www.youtube.com/watch?v={{ myimage.basename }})
+{% endfor %}
