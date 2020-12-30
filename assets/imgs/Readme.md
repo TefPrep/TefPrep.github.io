@@ -1,1 +1,0 @@
-Thumbnails with name
