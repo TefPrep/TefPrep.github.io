@@ -1,7 +1,3 @@
----
-title: Blogs
-permalink: /posts
----
 
 <div class="posts">
   {% for post in site.posts %}
@@ -13,7 +9,7 @@ permalink: /posts
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">View More</a>
     </article>
   {% endfor %}
 </div>
