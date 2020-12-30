@@ -8,7 +8,9 @@ excerpt_separator: <!--end_excerpt-->
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  [![youtubethumnails]({{ myimage.path }})](https://www.youtube.com/watch?v={{ myimage.basename }})
+  {% assign words = {{ myimage.basename }} | split:_ %}
+  [![youtubethumnails]({{ myimage.path }})](https://www.youtube.com/watch?v={{ words[0] }}) {{ words[1] }}
+  
 {% endfor %}
 
 
