@@ -1,3 +1,8 @@
+---
+layout : post
+title: My Blogs
+---
+
 
 <ul>
   {% for post in site.posts %}
